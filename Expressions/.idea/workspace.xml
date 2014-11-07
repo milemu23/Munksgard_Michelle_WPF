@@ -74,11 +74,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Concatenating Strings/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10880829" vertical-offset="0" max-vertical-offset="965">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Casting/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23316061" vertical-offset="0" max-vertical-offset="965">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,6 +106,7 @@
         <option value="$PROJECT_DIR$/Using Modulo/js/script.js" />
         <option value="$PROJECT_DIR$/Order of Operations/js/script.js" />
         <option value="$PROJECT_DIR$/Concatenating Strings/js/script.js" />
+        <option value="$PROJECT_DIR$/Casting/js/script.js" />
       </list>
     </option>
   </component>
@@ -103,8 +114,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1285" />
-    <option name="y" value="250" />
+    <option name="x" value="1117" />
+    <option name="y" value="275" />
     <option name="width" value="1174" />
     <option name="height" value="1062" />
   </component>
@@ -218,7 +229,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1285" y="250" width="1174" height="1062" extended-state="0" />
+    <frame x="1117" y="275" width="1174" height="1062" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -350,8 +361,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Concatenating Strings/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10880829" vertical-offset="0" max-vertical-offset="965">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Casting/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23316061" vertical-offset="0" max-vertical-offset="965">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
