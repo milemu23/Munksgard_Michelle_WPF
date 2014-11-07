@@ -49,11 +49,10 @@ console.log("You have spent a total of $" + total + " on groceries over 5 weeks.
 
 var price = 15.99;
 var discount = 30;
-var description = "Dog Treats"
+var description = "dog treats"
 var salesTax = 6;
 
 var withoutTax = price - (price * (discount/100));
 var withTax = withoutTax + (withoutTax * (salesTax/100));
 
-console.log(withoutTax);
-console.log(withTax);
+console.log("Your " + description + " were originally $" + price + ", after a " + discount + "%, it is now $" + withoutTax + " without tax, and $" + withTax + " with tax." );
