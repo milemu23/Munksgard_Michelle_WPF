@@ -11,8 +11,9 @@ var eBayFees = ((10/100) * shirtPrice + .30); //calcuate the percentage fee from
 var etsyFees = ((3.5/100) * shirtPrice + .20); //calcuate the percentage fee from the shirt price and add the additional fee
 var paypalFees = .88; //the fee for paypal
 var costShirt = 8; //cost to make the shirt
+var productSold = "t-shirt";
 
 var fromEbay = 20 - eBayFees - paypalFees - costShirt; //total profit from ebay = sale price of shirts minus all fees and shirt cost
 var fromEtsy = 20 - etsyFees - paypalFees - costShirt; //total profit from ebay = sale price of shirts minus all fees and shirt cost
 
-console.log("Each shirt sells for $" + shirtPrice + ". When sold on eBay, I make a profit of $" + fromEbay + " and when sold on Etsy, I make a profit of $" + fromEtsy + "." );
+console.log("Each " + productSold + " sells for $" + shirtPrice + ". When sold on eBay, I make a profit of $" + fromEbay + " and when sold on Etsy, I make a profit of $" + fromEtsy + "." );
