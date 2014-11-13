@@ -3,6 +3,8 @@
 //Conditionals_Industry
 
 //declare variables for monthly bills and wages, defining the known amount - givens
+
+//Givens
 var monthlyBills = 1500.00;
 var wage = 35.00;
 
