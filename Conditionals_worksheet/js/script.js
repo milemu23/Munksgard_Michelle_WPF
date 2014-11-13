@@ -69,3 +69,11 @@ if(grade >= 95 && grade <= 100){
     console.log("You have " + grade + "%, which means you have earned a F in the class!");
 }
 
+//GROUP 3
+
+//Given: tire pressure of each tire (array)
+
+var tirePressure = [20, 20, 30, 30];
+
+
+(tirePressure[0] === tirePressure[1] && tirePressure[2] === tirePressure[3]) ? console.log("The tires pass spec!") : console.log("Get your tires checked out!");
