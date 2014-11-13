@@ -40,3 +40,32 @@ if(unit === "F"){
     alert("The temperature is " + F + " degrees Fahrenheit.");
 }
 
+
+//GROUP 2
+
+//Grade Letter
+
+//Given: Grade - in percent
+
+//set variable as the grade percentage
+var grade = 74;
+
+//if the grade is between or equal to these numbers then their grade is X, if not then it is X
+if(grade >= 95 && grade <= 100){
+    console.log("You have " + grade + "%, which means you have earned an A+ in the class!")
+}else if(grade >= 90 && grade <= 94){
+    console.log("You have " + grade + "%, which means you have earned an A in the class!");
+}else if(grade >= 85 && grade <= 89){
+    console.log("You have " + grade + "%, which means you have earned a B+ in the class!");
+}else if(grade >= 80 && grade <= 44){
+    console.log("You have " + grade + "%, which means you have earned a B in the class!");
+}else if(grade >= 76 && grade <= 79){
+    console.log("You have " + grade + "%, which means you have earned a C+ in the class!");
+}else if(grade >= 73 && grade <= 75){
+    console.log("You have " + grade + "%, which means you have earned a C in the class!");
+}else if(grade >= 70 && grade <= 72){
+    console.log("You have " + grade + "%, which means you have earned a D in the class!");
+}else{
+    console.log("You have " + grade + "%, which means you have earned a F in the class!");
+}
+
