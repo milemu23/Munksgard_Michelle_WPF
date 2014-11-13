@@ -11,8 +11,19 @@ var vodka = 4.50;
 
 //prompt the user to see how much money they have to spend
 var money = prompt("How much money do you have to spend for drinks?");
+
+//validate the amount of money that the user has to spend for drinks
+if(money === ""){
+    prompt("Please enter an amount you have to spend. Do not leave blank.");
+}
+
 //prompt the user for the amount of drinks that they would like to have
 var quantity = prompt("How many drinks do you want to have?");
+
+//validate the quantity of drinks the user wants
+if(quantity === ""){
+    prompt("Please enter the amount of drinks you would like to have. Do not leave blank.");
+}
 
 //create a variable that calculates the price of drink by the amount the user desires to have
 var totalBeer = beer * quantity;
