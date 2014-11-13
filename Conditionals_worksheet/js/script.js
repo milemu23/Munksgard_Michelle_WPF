@@ -73,7 +73,9 @@ if(grade >= 95 && grade <= 100){
 
 //Given: tire pressure of each tire (array)
 
+
+//Array that includes each of the four tires pressures
 var tirePressure = [20, 20, 30, 30];
 
-
+//if tire 1 and 2 are equal to each other AND tires 3 and 4 are equal to each other than the tires pass, if not check your tires
 (tirePressure[0] === tirePressure[1] && tirePressure[2] === tirePressure[3]) ? console.log("The tires pass spec!") : console.log("Get your tires checked out!");
