@@ -6,6 +6,7 @@
 //Vodka would be the top choice but if there is not enough money then a beer and if there is not enough for that then water.
 
 //declare the variables for beer and vodka setting the price of each
+//Givens
 var beer = 3.50;
 var vodka = 4.50;
 
