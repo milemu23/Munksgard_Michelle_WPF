@@ -4,6 +4,8 @@
 
 //Determine if I can build a snowman
 
+//Givens: snow and snowType
+
 //declare variable snow and prompt user to tell if there is snow on the ground
 var snow = prompt("Is there snow on the ground?");
 
