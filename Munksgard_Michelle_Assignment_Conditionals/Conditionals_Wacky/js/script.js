@@ -4,13 +4,19 @@
 
 var snow = prompt("Is there snow on the ground?");
 
-var snowman;
+result = (snow === "yes") ? "You might be able to build a snowman." : "You will not be able to build a snowman.";
+
+console.log(result);
+alert(result);
+
+
 var snowType = ["crunchie", "soft", "hard", "packable"];
 
-if(snowType === "crunchie" || snowType === "packable"){
+if(snowType[0] === "crunchie" || snowType[1] === "packable"){
     console.log("You can make a snowman.");
-}else if (snowType === "soft")
+}else{
+    console.log("You should try sled riding.");
+}
 
-alert(snow == "yes" ? "There is a chance you can ")
-
+console.log(snowType);
 
