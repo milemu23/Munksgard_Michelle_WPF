@@ -1,3 +1,5 @@
+//Michelle Munksgard
+//11/16/2014
 //Functions - Worksheet
 
 //Stung
@@ -13,6 +15,9 @@ function beeStings(stings, weight){
     return stings * weight;
 }
 
+//create a variable to hold the results
+result = "It takes " + kill + " stings to kill this animal.";
+
 //print the results to the console
-console.log("It takes " + kill + " stings to kill this animal.");
+console.log(result);
 
