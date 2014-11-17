@@ -3,13 +3,13 @@
 //Stung
 
 //Givens
-stings = 8.6666666667;
-weight = 150;
+var stings = 8.6666666667;
+var weight = 150;
 kill = beeStings(stings,weight);
+console.log("It takes " + kill + "stings to kill this animal.");
 
 function beeStings(stings, weight){
     return stings * weight;
-    console.log("It takes " + kill + "stings to kill this animal.");
 }
 
-beeStings();
+beeStings(8.6667, 150);
