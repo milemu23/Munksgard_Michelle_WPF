@@ -9,8 +9,20 @@
 //Givens
 //prompt to find out the users current weight
 var currentWeight = prompt("What is your current weight?");
+
+//validate the users current weight
+if(currentWeight === ""){
+    prompt("Please enter your current weight. Do not leave blank.");
+}
+
 //prompt to find out the users goal weight
 var goalWeight = prompt("What is your goal weight?");
+
+//validate the users goal weight
+if(quantity === ""){
+    prompt("Please enter your goal weight. Do not leave blank.");
+}
+
 //average lbs per week a person can lose in a healthy way
 var lbsPerWeek = 2;
 //total weeks left to reach goal
