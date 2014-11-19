@@ -9,15 +9,16 @@
 //Givens
 var currentWeight = prompt("What is your current weight?");
 var goalWeight = prompt("What is your goal weight?");
-var totalWeeksLeft = (currentWeight - goalWeight) / 2;
+var lbsPerWeek = 2;
+var totalWeeksLeft = (currentWeight - goalWeight) / lbsPerWeek;
 
 function result(c, g){
     if(c - g <= 0){
         alert("Congratulations you met your goal!");
     }else{
-        alert("You have about " + totalWeeksLeft + " weeks left to reach your goal. Keep going!" );
+        alert("You have about " + totalWeeksLeft + " weeks left to reach your goal if you lose the average " + lbsPerWeek + " lbs a week. Keep going!" );
     }
 
 }
 
-result(currentWeight, goalWeight);
+result(currentWeight, goalWeight, lbsPerWeek);
