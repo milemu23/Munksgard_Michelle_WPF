@@ -10,8 +10,10 @@
 var imgHeight = prompt("What is the height of your image? Enter in inches");
 var imgWidth = prompt("What is the width of your image? Enter in inches.");
 
+var evenSides = prompt("Do you want all four sides to be the same?");
 
-    if(true) {
+
+    if(evenSides === "yes") {
         var evenSides = prompt("What size do you want your mat sides? Enter in inches.");
         frameSizeHeight = imgHeight + evenSides * 2;
         frameSizeWidth = imgWidth + evenSides * 2;
