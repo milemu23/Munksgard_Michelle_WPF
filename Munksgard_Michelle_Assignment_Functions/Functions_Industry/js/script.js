@@ -22,18 +22,23 @@ while(isNaN(imgWidth) || imgWidth===""){
 var evenSides = prompt("Do you want all four sides to be the same?");
 
 
-    if(evenSides === "yes") {
+var frames = function(h, w) {
+    if (evenSides === "yes") {
         var sides = prompt("What size do you want your mat sides? Enter in inches.");
-        frameSizeHeight = Number(imgHeight) + Number(sides * 2);
-        frameSizeWidth = Number(imgWidth) + Number(sides * 2);
-        alert("The inside dimensions for your frame are " + frameSizeHeight + " x " + frameSizeWidth + "." );
-    }else {
+        var frameSizeHeight = Number(h) + Number(sides * 2);
+         var frameSizeWidth = Number(w) + Number(sides * 2);
+        alert("The inside dimensions for your frame are " + frameSizeHeight + " x " + frameSizeWidth + ".");
+    } else {
         var matSizeTop = prompt("What size do you want at the top for your mat? Enter in inches.");
         var matSizeBottom = prompt("What size do you want at the bottom for your mat? Enter in inches");
         var matSizeSides = prompt("What size do you want at the sides for your mat? Enter in inches");
 
-        frameSizeHeight = Number(imgHeight) + Number(matSizeTop) + Number(matSizeBottom);
-        frameSizeWidth = Number(imgWidth) + Number(matSizeSides * 2);
+        frameSizeHeight = Number(h) + Number(matSizeTop) + Number(matSizeBottom);
+        frameSizeWidth = Number(w) + Number(matSizeSides * 2);
 
         alert("The inside dimensions for your frame are " + frameSizeHeight + " x " + frameSizeWidth + ".");
     }
+};
+
+frames(imgHeight, imgWidth);
+ 
