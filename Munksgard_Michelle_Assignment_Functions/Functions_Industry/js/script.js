@@ -7,21 +7,32 @@
 
 
 //Givens
+
+//set variable to imgHeight and prompt user
 var imgHeight = prompt("What is the height of your image? Enter in inches.");
 
+//validate and make sure response a number
 while(isNaN(imgHeight) || imgHeight===""){
-    prompt("What is the height of your image? Enter in inches.");
+    imgHeight = prompt("What is the height of your image? Enter in inches.");
 }
 
+//set variable to imgWidth and prompt user
 var imgWidth = prompt("What is the width of your image? Enter in inches.");
 
+//validate and make sure response is a number
 while(isNaN(imgWidth) || imgWidth===""){
-    prompt("What is the width of your image? Enter in inches.");
+    imgWidth =prompt("What is the width of your image? Enter in inches.");
 }
 
+//sets variable to evenSides and prompts user
 var evenSides = prompt("Do you want all four sides to be the same?");
 
+//validates that the user enters an answer
+while(evenSides===""){
+    evenSides = prompt("Do you want all four sides to be the same?");
+}
 
+//anonymous function -- if the user wants even sides, prompt for mat side size, otherwise ask for each side size
 var frames = function(h, w) {
     if (evenSides === "yes") {
         var sides = prompt("What size do you want your mat sides? Enter in inches.");
@@ -40,5 +51,5 @@ var frames = function(h, w) {
     }
 };
 
+//call the function
 frames(imgHeight, imgWidth);
- 
