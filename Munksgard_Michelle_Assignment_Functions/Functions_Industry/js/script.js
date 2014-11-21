@@ -15,8 +15,8 @@ while(isNaN(imgHeight) || imgHeight===""){
 
 var imgWidth = prompt("What is the width of your image? Enter in inches.");
 
-while(isNaN(imgHeight) || imgHeight===""){
-    prompt("What is the height of your image? Enter in inches.");
+while(isNaN(imgWidth) || imgWidth===""){
+    prompt("What is the width of your image? Enter in inches.");
 }
 
 var evenSides = prompt("Do you want all four sides to be the same?");
