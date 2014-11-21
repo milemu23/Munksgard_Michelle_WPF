@@ -6,6 +6,13 @@
 
 //Givens
 var month = prompt("What month is it? Enter using a number. Ex. November is 11.");
+
+while(isNan(month) || min===""){
+    var month = prompt("What month is it? Enter using a number. Ex. November is 11.");
+}
+
+
+
 var currentDate = prompt("What is today's date? Do not include month");
 var daysInNov = 30;
 var daysInDec = 25; // days until Christmas in December
